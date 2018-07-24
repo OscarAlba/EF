@@ -2,13 +2,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
 
-import createCandidato from '../components/createCandidato'
-import createPersona from '../components/createPersona'
-import createProposal from '../components/createProposal'
-import Login from '../components/Login'
-import PersonaPerfil from '../components/PersonaPerfil'
-import CandidatoPerfil from '../components/CandidatoPerfil'
-import Votar from '../components/Votar'
+import createCandidato from '../components/createCandidato.vue'
+import createPersona from '../components/createPersona.vue'
+import createProposal from '../components/createProposal.vue'
+import Login from '../components/Login.vue'
+import PersonaPerfil from '../components/PersonaPerfil.vue'
+import CandidatoPerfil from '../components/CandidatoPerfil.vue'
+import Votar from '../components/Votar.vue'
 
 Vue.use(VueRouter)
 
