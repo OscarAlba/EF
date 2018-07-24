@@ -3,15 +3,16 @@
     <b-jumbotron header="Elecciones" lead="Recuerda ejercer tu derecho al voto" >
         <p>Elecciones</p>
       </b-jumbotron>
-    <router-view/>
-    <b-button id="logIn" @click='ingresar()'>Votar</b-button>
+      <b-button id="logIn" @click='ingresar()'>INGRESAR</b-button>
+    <router-view></router-view>
+
   </div>
 </template>
 
 <script>
 export default {
   methods:{
-    votar(){
+    ingresar(){
       this.$router.push('/login');
     }
   }
