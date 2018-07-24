@@ -3,7 +3,7 @@ var webpack = require('webpack')
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const express = require('express')
 const serveStatic = require('serve-static')
-
+//const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -12,6 +12,7 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'build.js'
   },
+
   module: {
     rules: [
       {
