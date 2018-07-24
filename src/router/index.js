@@ -14,37 +14,37 @@ Vue.use(VueRouter)
 
 export const routes =[
   {
-    path:'/createCandidato',
+    path:'/createCandidato.vue',
     name:'createCandidato',
     component: createCandidato
   },
   {
-    path:'/createPersona',
+    path:'/createPersona.vue',
     name:'createPersona',
     component: createPersona
   },
   {
-    path:'/createProposal',
+    path:'/createProposal.vue',
     name:'createProposal',
     component: createProposal
   },
   {
-      path: '/Login',
+      path: '/Login.vue',
       name: 'Login',
       component: Login
   },
   {
-      path: '/PersonaPerfil',
+      path: '/PersonaPerfil.vue',
       name: 'PersonaPerfil',
       component: PersonaPerfil
   },
   {
-      path: '/CandidatoPerfil',
+      path: '/CandidatoPerfil.vue',
       name: 'CandidatoPerfil',
       component: CandidatoPerfil
   },
   {
-      path: '/Votar',
+      path: '/Votar.vue',
       name: 'Votar',
       component: Votar
   }
