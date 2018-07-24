@@ -15,9 +15,9 @@
       </table>
     </div>
     <hr>
-    <button id="logIn" @click='votar()'>Votar</button>
-    <button id="log" @click='pro()'>Registrar Propuesta</button>
-    <button id="In" @click='logout()'>Cerrar Sesion</button>
+    <b-button id="logIn" @click='votar()'>Votar</b-button>
+    <b-button id="log" @click='pro()'>Registrar Propuesta</b-button>
+    <b-button id="In" @click='logout()'>Cerrar Sesion</b-button>
   </div>
 </template>
 

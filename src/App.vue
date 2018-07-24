@@ -4,12 +4,17 @@
         <p>Elecciones</p>
       </b-jumbotron>
     <router-view/>
+    <b-button id="logIn" @click='ingresar()'>Votar</b-button>
   </div>
 </template>
 
 <script>
 export default {
-
+  methods:{
+    votar(){
+      this.$router.push('/login');
+    }
+  }
 }
 </script>
 

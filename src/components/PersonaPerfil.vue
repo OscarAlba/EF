@@ -8,8 +8,8 @@
           </div>
     </div>
     <hr>
-    <button id="logIn" @click='votar()'>Votar</button>
-    <button id="logIn" @click='logout()'>Cerrar Sesion</button>
+    <b-button id="logIn" @click='votar()'>Votar</b-button>
+    <b-button id="logIn" @click='logout()'>Cerrar Sesion</b-button>
   </div>
 </template>
 
