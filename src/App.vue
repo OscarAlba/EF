@@ -3,7 +3,6 @@
     <b-jumbotron header="Elecciones" lead="Recuerda ejercer tu derecho al voto" >
         <p>Elecciones</p>
       </b-jumbotron>
-      <b-button id="logIn" @click='ingresar()'>INGRESAR</b-button>
     <router-view></router-view>
 
   </div>
