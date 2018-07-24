@@ -8,7 +8,7 @@ const serveStatic = require('serve-static')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, './dist/index.html'),
     publicPath: '/dist/',
     filename: 'build.js'
   },
